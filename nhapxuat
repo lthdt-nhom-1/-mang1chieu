@@ -1,0 +1,14 @@
+void mang::nhap(){
+	cout<<"Nhap so luong phan tu: "; cin>>n;
+	cout<<"Nhap cac phan tu: "<<endl;
+	for(int i=0; i<n; i++){
+		cout<<"a["<<i<<"]: "<<endl; cin>>a[i];
+	}
+}
+
+void mang::xuat(){
+	cout<<"Cac phan tu cua mang: ";
+	for(int i=0; i<n; i++){
+		cout<<a[i]<<" ";
+	}
+}
